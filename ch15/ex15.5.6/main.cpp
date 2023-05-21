@@ -10,8 +10,8 @@
 //! Which of the following declarations, if any, are incorrect? Explain why.
 //       class Base { ... };
 //      (a) class Derived : public Derived { ... }; //incorrect, deirve from itself
-//      (b) class Derived : private Base { ... };   //incorrect, this is a definition not a declaration
-//      (c) class Derived : public Base;            //correcct.
+//      (b) class Derived : private Base { ... };   //correcct.
+//      (c) class Derived : public Base;            //incorrect, this is a definition not a declaration
 //! Exercise 15.5:
 //! Define your own version of the Bulk_quote class.
 //!
